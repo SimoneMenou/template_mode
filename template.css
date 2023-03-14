@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    
+}
+#bloc1 h1 , #bloc1 h2{
+   font-size: 20px;
+}
+#bloc1 h1 , #bloc1 h2,#bloc1 h3,button{
+   margin-top:10%;
+  
+}
+#bloc1 h2{
+    font-size: 70px;
+ }
+#bloc1 h3{
+    font-size: 24px;
+ }
+
+#bloc1 h1 , #bloc1 h3{
+    font-family: 'Roboto', sans-serif;
+}
+#bloc1 h2 {
+    font-family: 'Playfair Display', serif;
+    
+}
+#bloc1{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+button
+{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 1%;
+}  
+.line{
+    height: 582px;
+    border-left: solid black 416px;
+    float: left;
+    position:absolute;
+    top:22.4%;
+    right: 26%;
+    z-index: 0;
+    
+}  
+.photo1 img{
+    height: 582px;
+    margin: 5%;
+    position:relative;
+    top: 0;
+    z-index:1 ;
+    float: left;
+} 
+.presentation{
+    float: left;
+    
+   
+} 
+.photo1{
+    float: left;
+}
